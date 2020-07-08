@@ -27,7 +27,7 @@
             var today = new Date();
             if (current_date !== undefined
                 && current_date.getMinutes() === today.getMinutes()) {
-                setTimeout(startTime, 1000);
+                setTimeout(startTime, 10000);
                 return;
             }
 
@@ -71,7 +71,7 @@
                 }
 
                 // Timeout
-                setTimeout(startTime, 1000);
+                setTimeout(startTime, 10000);
             });
         }
         function checkTime(i) {

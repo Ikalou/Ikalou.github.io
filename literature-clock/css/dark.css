@@ -5,11 +5,11 @@ html, body {
     background-color: black;
 }
 
-/*
-#lit_quote {
 
+#lit_quote {
+	text-align: justify;
 }
-*/
+
 #lit_quote em {
     font-weight: 900;
     color: white;

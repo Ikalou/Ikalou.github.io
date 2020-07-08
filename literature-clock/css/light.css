@@ -5,11 +5,10 @@ html, body {
 
 }
 
-/*
 #lit_quote {
-
+	text-align: justify;
 }
-*/
+
 #lit_quote em {
     font-weight: 900;
     color: rgb(19, 19, 19);
