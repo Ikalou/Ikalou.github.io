@@ -20,7 +20,7 @@ html, body {
 
 
 #main_text {
-    width: 92vw;
+    width: 90vw;
     margin: auto;
     color: rgb(150, 150, 150);
     font-family: 'Merriweather', Times, serif;
@@ -28,7 +28,7 @@ html, body {
 
 cite {
     float: right;
-    padding-left: 10vw;
+    padding-left: 15vw;
     font-size: 2.3vw;
 }
 cite #book{
