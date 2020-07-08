@@ -2,7 +2,7 @@ html, body {
     margin: 0; padding: 0;
     height: 100%; 
     overflow: auto;
-
+    background-color: black;
 }
 
 /*
@@ -12,15 +12,15 @@ html, body {
 */
 #lit_quote em {
     font-weight: 900;
-    color: rgb(19, 19, 19);
+    color: white;
     font-style: normal
 }
 
 
 #main_text {
     width: 80vw;
-    margin: auto; 
-    color: dimgrey;
+    margin: auto;
+    color: rgb(150, 150, 150);
     font-family: 'Merriweather', Times, serif;
 }
 
@@ -40,7 +40,7 @@ cite #book{
     bottom:2%;
     color: dimgray;
     padding-left: 40px;
-    padding-right: 0px;
+    padding-right: 0;
 
 }
 #buttom a, a:visited {
