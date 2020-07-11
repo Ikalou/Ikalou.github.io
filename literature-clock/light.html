@@ -6,6 +6,7 @@
 
     <script>
         var current_date;
+        var times;
 
         function getJSON(url, callback) {
             var request = new XMLHttpRequest();
@@ -20,7 +21,14 @@
         }
 
         function loadFile(timeStamp, callback) {
-            getJSON("times/" + timeStamp + ".json", callback);
+            if (!times) {
+                getJSON("times.json", function(json) {
+                    times = json
+                    callback(times[timeStamp])
+                });
+            } else {
+                callback(times[timeStamp])
+            }
         }
 
         function startTime() {
